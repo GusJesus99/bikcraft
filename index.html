@@ -7,15 +7,19 @@
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade.">
   <title>Bikcraft - Bicicletas Elétricas</title>
   <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="header_bg">
-    <div class="header">
+    <div class="header container">
       <a href="./">
         <img src="img/bikcraft.svg" alt="Bikcraft"></a>
       <nav aria-label="primaria">
-        <ul class="header_menu">
+        <ul class="header_menu font_1_m cor_0">
           <li><a href="bicicletas/html">Bicicletas</a></li>
           <li><a href="seguros.html">Seguros</a></li>
           <li><a href="contato.html">Contato</a></li>
@@ -23,6 +27,46 @@
       </nav>
     </div>
   </header>
+
+  <main class="introducao_bg">
+    <div class="introducao container">
+      <div class="introducao_conteudo">
+        <h1 class="font_1_xxl cor_0">Bicicletas feitas sob medida<span class="cor_p1">.</span></h1>
+        <p class="font_2_l cor_5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade.</p>
+        <a class="botao" href="./bicicletas">Escolha a sua</a>
+      </div>
+      <div>
+        <img src="/img/fotos/introducao.jpg" alt="bicicleta preta">
+      </div>
+    </div>
+  </main>
+  ,<article class="bicicletas_lista">
+    <h2 class="container font_1_xxl">Escolha a sua<span class="cor_p1">.</span></h2>
+    <ul>
+      <li>
+        <a href="./bicicletas/magic.html">
+          <img src="./img/bicicletas/magic-home.jpg">
+          <h3 class="font_1_xl">Magic Might</h3>
+          <span class="font_2_m cor_8">R$:2499</span>
+        </a>
+      </li>
+      <li>
+        <a href="./bicicletas/nimbus.html">
+          <img src="./img/bicicletas/nimbus-home.jpg">
+          <h3 class="font_1_xl">Nimbus Stark</h3>
+          <span class="font_2_m cor_8">R$:4999</span>
+        </a>
+      </li>
+      <li>
+        <a href="./bicicletas/Nebula.html">
+          <img src="./img/bicicletas/nebula-home.jpg">
+          <h3 class="font_1_xl">Nebula Cosmic</h3>
+          <span class="font_2_m cor_8">R$:3999</span>
+        </a>
+      </li>
+
+    </ul>
+  </article>
 </body>
 
 </html>
