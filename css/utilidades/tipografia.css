@@ -1,14 +1,3 @@
-/* .font_1_xxl {
-  font:
-    600 4rem/1.12 "Poppins",
-    sans-serif;
-}
-
-.font_2_l {
-  font:
-    400 1.5rem/1.5 "Roboto",
-    sans-serif;
-} */
 .font_1_xs {
   font:
     400 0.75rem/1.35 "Poppins",
@@ -41,7 +30,7 @@
 }
 
 .font_1_m_b {
-  font_weight: 600;
+  font-weight: 600;
 }
 
 .font_2_m {
